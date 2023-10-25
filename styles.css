@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 3%;
+    padding-right: 3%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 80px;
+    cursor: pointer;
+    margin: 30px 0;
+    margin-right: 100px;
+}
+
+nav{
+    flex: 1;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.log-reg{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.log-reg a{
+    text-decoration: none;
+    color: black;
+}
+
+#reg{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0 0 0;
+    padding: 0 0 0 70px;
+}
+
+.row1{
+    align-items: center;
+}
+
+.row1 h1{
+   font-size: 90px;
+}
+
+.row1 p{
+    font-size: 20px;
+    margin: 40px 0 80px 0;
+}
+
+.row1 button{
+    display: block;
+    margin: 30px 0 200px 0;
+}
+
+.row1 img{
+    margin-right: 30px;
+    cursor: pointer;
+    height: 25px;
+}
+
+button{
+    background-color: black;
+    border-radius: 15px;
+    padding: 20px 50px;
+    color: white;
+    font-size: 16px;
+}
+
+.hero-desk{
+    width: 60%;
+    height: 85%;
+    margin-left: 300px;
+    margin-right: -300px;
+}
