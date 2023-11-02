@@ -10,7 +10,7 @@
     padding-left: 3%;
     padding-right: 3%;
     box-sizing: border-box;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .nav-bar{
@@ -26,8 +26,13 @@
     margin-right: 100px;
 }
 
+.menuBar{
+    display: none;
+}
+
 nav{
-    flex: 1;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav ul li{
@@ -56,6 +61,30 @@ nav ul li a{
     border: 1px solid black;
     border-radius: 15px;
     padding: 10px 20px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 12px 16px;
+}
+
+.dropdown-content img{
+    margin-right: 10px;
+}
+
+.drop-down:hover .dropdown-content{
+    display: block;
 }
 
 .content{
@@ -100,7 +129,7 @@ button{
 
 .hero-desk{
     width: 60%;
-    height: 85%;
+    height: 100%;
     margin-left: 300px;
     margin-right: -300px;
 }
