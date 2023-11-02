@@ -77,4 +77,8 @@
     .row1 img{
         height: 17px;
     }
+
+    .row1 p{
+        display: flex;
+    }
 }
