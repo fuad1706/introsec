@@ -28,21 +28,26 @@
 
     nav ul li {
         display: block;
-        margin-top: 7px;
-        font-size: 18px;
+        margin-top: 5px;
+        padding: 5px;
+        font-size: 16px;
+        text-align: right;
     }
 
     nav ul li a{
         color: #030000;
+        display: inline-block;
+    }
+
+    .menulist{
         display: block;
-        text-align: right;
     }
 
     
 
     .row1 {
         text-align: center;
-        align-items: center;
+    
     }
 
     .row1 h1{
