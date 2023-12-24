@@ -12,7 +12,7 @@
     nav {
         display: none;
         flex-flow: column;
-        width: 100%;
+        width: 0;
         gap: 20px;
         position: absolute;
         top: 75px;
@@ -21,8 +21,15 @@
     }
 
     nav ul {
-        width: 100%;
-        height: 30%;
+        width: 0;
+        height: 0;
+        background: linear-gradient(#ff469f, #ff6062);
+    }
+
+    nav.open-menu{
+        width: 50%;
+        height: 100vh;
+
         background: linear-gradient(#ff469f, #ff6062);
     }
 
@@ -57,12 +64,12 @@
         overflow: hidden;
     }
 
-    .hero-desk {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        height: 30%;
-    }
+    /* .hero-desk { */
+        /* margin-left: 0; */
+        /* margin-right: 0; */
+        /* width: 100%; */
+        /* height: 30%; */
+    /* } */
 
     .content{
         flex-direction: column-reverse;
@@ -84,9 +91,27 @@
         margin-right: 10px;
     }
 
+    .row1 p br{
+        display: none;
+    }
+
     .row1 p{
         display: flex;
         font-size: 18px;
         text-align: center;
+        padding: 0 10px 0 10px;
     }
+
+    .row1 h1 br{
+        display: none;
+    }
+
+    .row2{
+        background-image: url(./assets/image-hero-mobile.png);
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: contain;
+    }
+
 }

@@ -17,6 +17,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo{
@@ -98,7 +99,7 @@ nav ul li a{
 }
 
 .row1 h1{
-   font-size: 90px;
+   font-size: 70px;
 }
 
 .row1 p{
@@ -115,6 +116,15 @@ nav ul li a{
     margin-right: 30px;
     cursor: pointer;
     height: 25px;
+}
+
+.row2{
+    background-image: url(./assets/image-hero-desktop.png);
+    width: 45%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 button{
