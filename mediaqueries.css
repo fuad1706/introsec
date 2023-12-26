@@ -11,18 +11,26 @@
 
     nav {
         display: none;
-        flex-flow: column;
-        width: 0;
-        gap: 20px;
-        position: absolute;
-        top: 75px;
-        right: 0;
-        z-index: 2;
+        /* flex-flow: column; */
+        /* width: 100%; */
+        /* gap: 20px; */
+        /* position: absolute; */
+        /* top: 75px; */
+        /* right: 0; */
+        /* z-index: 2; */
     }
 
     nav ul {
         width: 0;
         height: 0;
+        flex-flow: column;
+        width: 0;
+        height: 0;
+        gap: 20px;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
         background: linear-gradient(#ff469f, #ff6062);
     }
 
@@ -48,6 +56,17 @@
 
     .menulist{
         display: block;
+        width: 0;
+height: 0;
+flex-flow: column;
+width: 0;
+height: 0;
+gap: 20px;
+position: absolute;
+top: 75px;
+right: 0;
+z-index: 2;
+background: linear-gradient(#ff469f, #ff6062);
     }
 
     
